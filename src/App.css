@@ -1,10 +1,43 @@
-.App {
+.container {
   text-align: center;
+  padding: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: blue;
+  font-size: 250%;
+}
+
+h4 {
+  color: rgb(40, 42, 43);
+  font-size: 200%;
+}
+span {
+  size: 20cm;
+}
+.quantity__minus {
+  background-color: slategrey;
+  box-sizing: content-box;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+}
+.quantity__plus {
+  background-color: slategrey;
+  box-sizing: content-box;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+}
+
+input {
+  box-sizing: content-box;
+  border-radius: 2px;
+  block-size: 20px;
+  background-color: snow;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
